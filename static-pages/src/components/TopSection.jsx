@@ -10,7 +10,10 @@ export default function TopSection() {
 						/>
 					</div>
 					<div>
-						<h1 className="profile_name">Cesar Gonzalez</h1>
+						<h1 className="profile_name">
+							<span className="profile_name_firstName">Cesar</span>
+							<span className="profile_name_lastName">Gonzalez</span>
+						</h1>
 						<p className="profile_title">Developer</p>
 						<p className="description">
 							Lorem Ipsum dolor sit amet, consectetur adipiscing elit,
@@ -18,10 +21,10 @@ export default function TopSection() {
 							magna aliqua.
 						</p>
 						<a
-							className="download" 
+							className="downloadButton" 
 							href="src/assets/cv.pdf"
 							download="resume.pdf"
-						>Download Button
+						>Download
 						</a>
 					</div>
 				</div>
