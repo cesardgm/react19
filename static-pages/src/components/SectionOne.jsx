@@ -3,10 +3,17 @@ export default function SectionOne() {
 		<div className="group-1">
 			{/* Skills Section */}
 			<div className="skills">
-				<h3 className="title">Technologies</h3>
+				<h3 className="title">Skills</h3>
 				<ul className="skills_list description">
-					<li>Python</li>
-					<li>React</li>
+					<li>Programming Languages</li>
+					<li>Web Development</li>
+					<li>Cloud Computing</li>
+					<li>Database Technologies</li>
+					<li>AI & ML Libraries</li>
+					<li>Version Control</li>
+					<li>Graphic Design Software</li>
+					<li>Other Technologies</li>
+					<li>Digital Advertising Platforms</li>
 				</ul>
 			</div>
 			{/* Projects Section */}
