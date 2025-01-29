@@ -84,9 +84,15 @@ a {
 		padding: 3rem;
 		gap: 7rem;
 	}
+
+	.proj_list, .exp_list, .awards_content {
+		width: 50%;
+		margin: 0 auto;
+	}
+
 }
 
-.profile {
+.group-0 {
 	grid-column: 1 / -1;
 	margin-block-end: 2rem;
 }
@@ -97,7 +103,7 @@ a {
 	gap: 5rem;
 }
 
-.group-3 {
+.group-3, .list_container {
 	max-width: 700px;
 	width: 100%;
 	margin: 0 auto;
@@ -113,10 +119,14 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-	.profile {
+	.group-0 {
 		margin-bottom: 0;
 	}
 	
+	.group-0 .profile_container {
+		flex-direction: column;
+	}
+
 	.group-3 {
 		flex-direction: column;
 	}
@@ -127,9 +137,15 @@ a {
 .profile_container {
 	display: flex;
 	gap: 2rem;
+	align-items: center;
+	justify-content: center;
 }
 
-.porfile_profileImg {
+.profile_image_container {
+	flex: 0 1 atuo;
+}
+
+.profile_image {
 	max-width: 250px;
 }
 
@@ -170,15 +186,15 @@ a {
 @media only screen and (max-width: 768px) {
 	.profile_container {
 		flex-description: column;
+		align-items: center;
 	}
 }
 
 /* SectionOne */
 /* Skills */
-.skill_list {
+.skills_list {
 	margin-top: 1rem;
 	margin-left: 2rem;
-	line-height: 2;
 }
 
 /* Projects */
@@ -189,6 +205,12 @@ a {
 .proj_name {
 	font-size: 1.6rem;
 	font-weight: 700;
+}
+
+.proj_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
 }
 
 /* Education */
@@ -202,9 +224,21 @@ a {
 	margin-top: 2rem;
 }
 
+.exp_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 1.5;
+}
+
 /* Awards */
 .awards_item {
 	margin-top: 2rem;
+}
+
+.awards_content {
+	margin-top: 1rem;
+	margin-left: 0rem;
+	line-height: 1.5;
 }
 
 /* Interests */
