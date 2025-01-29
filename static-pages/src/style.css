@@ -5,8 +5,12 @@
 }
 
 :root {
-	--primary-color: #ff7613;
-	--text-color: #727171;
+	--primary-color: #e3dfc3;
+	--title-color: #979582;
+	--text-color: #656357;
+	
+	--background-color: black;
+	--container-color: #070707;
 }
 
 html {
@@ -15,8 +19,8 @@ html {
 
 body {
 	font-family: "Space Grotesk", sans-serif;
-	background-color: black;
-	color: white;
+	background-color: var(--background-color);
+	color: var(--title-color);
 }
 
 /* Common Styles */
@@ -28,7 +32,7 @@ img {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: var(--title-color);
 }
 
 .description {
@@ -54,7 +58,7 @@ a {
 
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: var(--title-color);
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -72,7 +76,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background: var(--container-color);
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -150,7 +154,7 @@ a {
 }
 
 .profile_name_firstName {
-	color: white;
+	color: var(--title-color);
 	font-weight: 200;
 	font-size: clamp(2rem, 8vw, 4rem);
 	text-transform: uppercase;
@@ -239,29 +243,6 @@ a {
 	margin-top: 1rem;
 	margin-left: 0rem;
 	line-height: 1.5;
-}
-
-/* Interests */
-.interests_items {
-	margin-top: 2rem;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 2rem;
-}
-
-.interest_item {
-	font-size: 1.5rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 5rem;
-	color: var(--text-color);
-}
-
-.interest_item_label {
-	margin-top: -4.5rem;
 }
 
 /* BottomSection */

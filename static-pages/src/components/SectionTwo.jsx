@@ -105,25 +105,6 @@ export default function SectionTwo() {
 					</p>
 				</div>
 			</div>
-
-			{/* Interests Section */}
-			<div className="interests">
-				<h3 className="title">Interests</h3>
-				<div className="interests_items">
-					<div className="interest_item">
-						<SiPokemon size={50} />
-						<p className="interest_item_label">Pokemon</p>
-					</div>
-					<div className="interest_item">
-						<SiBlender size={50} />
-						<p className="interest_item_label">Blender 3D</p>
-					</div>
-					<div className="interest_item">
-						<LiaYCombinator size={50} />
-						<p className="interest_item_label">YCombinator</p>
-					</div>
-				</div>
-			</div>
 		</div>
 	);
 }
