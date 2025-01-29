@@ -1,6 +1,3 @@
-import { LiaYCombinator } from "react-icons/lia";
-import { SiPokemon, SiBlender } from "react-icons/si";
-
 export default function SectionTwo() {
 	return (
 		<div className="group-2">
