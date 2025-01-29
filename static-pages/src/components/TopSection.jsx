@@ -1,3 +1,6 @@
+import profileImage from "../assets/profileImage.png";
+import resumePdf from "../assets/resume.pdf"
+
 export default function TopSection() {
 	return (
 		<div className="group-0">
@@ -5,7 +8,7 @@ export default function TopSection() {
 				<div className="profile_image_container">
 					<img
 						className="profile_image" 
-						src="src/assets/profileImage.png"
+						src={profileImage}
 						alt="profile picture"
 					/>
 				</div>
@@ -20,7 +23,7 @@ export default function TopSection() {
 					</p>
 					<a
 						className="downloadButton" 
-						href="src/assets/resume.pdf"
+						href={resumePdf}
 						download="resume.pdf"
 					>Download
 					</a>

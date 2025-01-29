@@ -5,8 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-      outDir: ".../static-pages",
-      emptyOutDir: true
+      outDir: "../static-pages-outDir",
+      emptyOutDir: true,
+      assetsDir: "assets"
   },
   base: "/react19/"
 })

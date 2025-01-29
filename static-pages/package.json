@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d static-pages",
+    "deploy": "gh-pages -d ../static-pages-outDir",
     "dev": "vite",
-    "build": "vite build --outDir static-pages",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
