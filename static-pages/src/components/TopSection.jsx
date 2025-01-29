@@ -21,7 +21,7 @@ export default function TopSection() {
 					</p>
 					<a
 						className="downloadButton" 
-						href="src/assets/cv.pdf"
+						href="src/assets/resume.pdf"
 						download="resume.pdf"
 					>Download
 					</a>
