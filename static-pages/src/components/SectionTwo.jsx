@@ -1,4 +1,7 @@
 export default function SectionTwo() {
+	const WINNER_LINK = "https://devpost.com/software/cure-genie";
+	const EVENT_LINK = "https://medium.com/@berkeleyskydeck_15634/finding-inspiration-at-the-largest-generative-ai-llm-hackathon-cf29a09e8479";
+
 	return (
 		<div className="group-2">
 			{/* Experience Section */}
@@ -98,7 +101,7 @@ export default function SectionTwo() {
 					<p className="item_preTitle">2023</p>
 					<h4 className="item_title">CalHacks '23</h4>
 					<p className="awards_content description">
-						Winner of CalHacks' June 2023 and secured $50,000 from Berkely SkyDeck.
+						<a href={WINNER_LINK} className="articleLink">Winner</a> of <a href={EVENT_LINK} className="articleLink">CallHacks' June 2023</a> and secured $50,000 from Berkely SkyDeck.
 					</p>
 				</div>
 			</div>

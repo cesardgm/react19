@@ -183,7 +183,7 @@ a {
 	margin-top: 1rem;
 }
 
-.downloadButton:hover {
+.downloadButton:hover, .articleLink:hover {
 	color: var(--primary-color);
 }
 
@@ -243,6 +243,10 @@ a {
 	margin-top: 1rem;
 	margin-left: 0rem;
 	line-height: 1.5;
+}
+
+.articleLink {
+	text-decoration: underline;
 }
 
 /* BottomSection */

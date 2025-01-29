@@ -41,15 +41,16 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: '../resume', // Output to parent's `resume` folder
+    outDir: '../static-pages-outDir', // Output to parent's `static-pages-outDir` folder
     emptyOutDir: true,         // Clear old files before building
+    assetsDir: "assets" // we won't use canonical `public` folder to serve static assets
   },
   base: '/react19/', // Match your GitHub Pages subpath
 });
 ```
 
 **Why?**
-- `outDir: "../static-pages"` ensures builds go to the `static-pages` folder.
+- `outDir: "../static-pages-outDir"` ensures builds go to the `static-pages-outDir` folder.
 - `base: "/react19/"` aligns with your GitHub Pages URL (`https://{username}.github.io/react19`).
 
 ## Step 3: Configure `package.json`
@@ -63,7 +64,7 @@ export default defineConfig({
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d static-pages",
+    "deploy": "gh-pages -d ../static-pages-outDir",
     "preview": "vite preview"
   },
   "dependencies": {
