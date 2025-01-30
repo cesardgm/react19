@@ -3,7 +3,7 @@
 This project serves a static page. Specifically, a resume that serves the client a couple static assets.
 
 # Deploy a React JS App from a Subdirectory to GitHub Pages
-Visit the page (here.)[https://cesardgm.github.io/react19/]
+Visit the page [here.][https://cesardgm.github.io/react19/]
 
 ## Prerequisites
 - Node.js (v18+ recommended) and npm
