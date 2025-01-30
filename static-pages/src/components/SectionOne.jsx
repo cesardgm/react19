@@ -44,7 +44,7 @@ export default function SectionOne() {
 					<li>AWS API Gateway</li>
 					<li>AWS DynamoDB</li>
 					<li>AWS S3</li>
-					<li>Docker</li>
+					<li>Terraform</li>
 					<li>Git</li>
 				</ul>
 				</div>
