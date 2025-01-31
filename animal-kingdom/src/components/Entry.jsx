@@ -1,5 +1,19 @@
 export default function Entry(props) {
 
+	const parametersElements = props.parameters
+	  // Split the string into alternating parts of parameters and values
+	  .split(/(--\S+)/g)
+	  // Process each part to wrap parameters and values appropriately
+	  .map((part, index) => {
+	    if (!part) return null; // Ignore empty strings
+	    
+	    return part.startsWith('--') ? (
+	      <span key={index} className="paramName">{part}</span>
+	    ) : (
+	      <span key={index} className="paramValue">{part}</span>
+	    );
+	  });
+
 	return(
 		<div className="entry-container">
 
@@ -36,7 +50,7 @@ export default function Entry(props) {
 
 				<p className="creation-date">{props.creation_date}</p>
 				<p className="prompt">{props.prompt}</p>
-				<p className="parameters">{props.parameters}</p>
+				<p className="parameters">{parametersElements}</p>
 			</div>
 		</div>
 	)

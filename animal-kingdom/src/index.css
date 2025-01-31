@@ -79,3 +79,11 @@
 	font-family: "Source Code Pro", sans-serif;
 	font-size: 8px;
 }
+
+.paramName {
+	color: #0056b3;
+}
+
+.paramValue {
+	color: #e66a00;
+}
