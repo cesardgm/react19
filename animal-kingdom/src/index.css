@@ -41,7 +41,7 @@
 }
 
 .source {
-	font-family: "Aldrich", sans-serif;
+	font-family: "Oranienbaum", sans-serif;
 }
 
 /* Entry Wikipedia Link */
@@ -57,9 +57,9 @@
 
 /* Entry Title */
 .entry-title {
-	font-family: "Oranienbaum", sans-serif;
+	font-family: "Playfair Display", sans-serif;
 	margin-bottom: 0;
-	margin-top: 0;
+	margin-top: 0.3rem;
 }
 
 /* Entry Creation Date */
@@ -71,11 +71,11 @@
 
 /* Entry Prompt */
 .prompt {
-	font-family: "Oranienbaum", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 /* Entry Parameters */
 .parameters {
-	font-family: "Aldrich", sans-serif;
-	font-size: 10px;
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 8px;
 }
