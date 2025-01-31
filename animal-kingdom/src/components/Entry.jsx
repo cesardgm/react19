@@ -1,7 +1,7 @@
 export default function Entry(props) {
 
 	return(
-		<article className="entry">
+		<article className="entry-container">
 			<div className="main-image-container">
 				<img 
 					className="main-image"
@@ -10,17 +10,19 @@ export default function Entry(props) {
 				/>
 			</div>
 			<div className="info-container">
-				<a c
-					lassName="source-site" 
-					href={props.source_site}
-				>
-					<img 
-						className="source-logo"
-						src={props.source_logo.src}
-						alt={props.source_logo.alt}
-					/>
-				</a>
-				<span className="source">{props.source}</span>
+				<div className="source-container">
+					<a c
+						lassName="source-site" 
+						href={props.source_site}
+					>
+						<img 
+							className="source-logo"
+							src={props.source_logo.src}
+							alt={props.source_logo.alt}
+						/>
+					</a>
+					<span className="source">{props.source}</span>
+				</div>
 				<a 
 					className="wikipedia-link" 
 					href={props.wikipedia_link}

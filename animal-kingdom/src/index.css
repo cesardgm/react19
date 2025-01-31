@@ -1,3 +1,18 @@
+/* Layouts */
+.entry-container {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 2.3fr;
+}
+
+.source-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+}
+
 /* Main Image */
 .main-image {
 	border: 1px solid black;
@@ -6,12 +21,13 @@
 	width: 150px;
 }
 
-/* Source Logo */
+/* Source */
 .source-logo {
 	border: 1px solid black;
 	border-radius: 50%;
 	padding: 5px;
-	width: 5%;
+	width: 24px;
+	height: 24px;
 }
 
 .source-logo:hover {
