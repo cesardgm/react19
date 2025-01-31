@@ -15,7 +15,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Albatross",
 		creation_date: "01/30/2025",
 		prompt: "Albatross in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 2,
@@ -33,7 +33,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Alligator",
 		creation_date: "01/30/2025",
 		prompt: "Alligator in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 3,
@@ -51,7 +51,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Allosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Allosaurus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 4,
@@ -69,7 +69,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Anaconda",
 		creation_date: "01/30/2025",
 		prompt: "Anaconda in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 5,
@@ -87,7 +87,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Ankylosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Ankylosaurus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 6,
@@ -105,7 +105,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Ant",
 		creation_date: "01/30/2025",
 		prompt: "Ant in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 7,
@@ -123,7 +123,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Arctic_fox",
 		creation_date: "01/30/2025",
 		prompt: "Arctic Fox in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 8,
@@ -141,7 +141,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Axolotl",
 		creation_date: "01/30/2025",
 		prompt: "Axolotl in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 9,
@@ -159,7 +159,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Bald_eagle",
 		creation_date: "01/30/2025",
 		prompt: "Bald Eagle in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 10,
@@ -177,7 +177,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Pogona",
 		creation_date: "01/30/2025",
 		prompt: "Bearded Dragon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 11,
@@ -195,7 +195,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Bison",
 		creation_date: "01/30/2025",
 		prompt: "Bison in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 12,
@@ -213,7 +213,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Latrodectus",
 		creation_date: "01/30/2025",
 		prompt: "Black Widow Spider in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 13,
@@ -231,7 +231,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Atlantic_bluefin_tuna",
 		creation_date: "01/30/2025",
 		prompt: "Atlantic Bluefin Tuna in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 14,
@@ -249,7 +249,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Blue_whale",
 		creation_date: "01/30/2025",
 		prompt: "Blue Whale in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 15,
@@ -267,7 +267,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Boa_constrictor",
 		creation_date: "01/30/2025",
 		prompt: "Boa Constrictor in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 16,
@@ -285,7 +285,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Brachiosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Brachiosaurus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 17,
@@ -303,7 +303,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Caiman",
 		creation_date: "01/30/2025",
 		prompt: "Caiman in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 18,
@@ -321,7 +321,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Camel",
 		creation_date: "01/30/2025",
 		prompt: "Camel in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 19,
@@ -339,7 +339,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Caterpillar",
 		creation_date: "01/30/2025",
 		prompt: "Caterpillar in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 20,
@@ -357,7 +357,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Chameleon",
 		creation_date: "01/30/2025",
 		prompt: "Chameleon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 21,
@@ -375,7 +375,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Cheetah",
 		creation_date: "01/30/2025",
 		prompt: "Cheetah in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 22,
@@ -393,7 +393,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Chicken",
 		creation_date: "01/30/2025",
 		prompt: "Chicken in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 23,
@@ -411,7 +411,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Chimpanzee",
 		creation_date: "01/30/2025",
 		prompt: "Chimpanzee in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 24,
@@ -429,7 +429,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Clownfish",
 		creation_date: "01/30/2025",
 		prompt: "Clownfish in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 25,
@@ -447,7 +447,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Cattle",
 		creation_date: "01/30/2025",
 		prompt: "Cow in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 26,
@@ -465,7 +465,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Coyote",
 		creation_date: "01/30/2025",
 		prompt: "Coyote in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 27,
@@ -483,7 +483,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Crocodile",
 		creation_date: "01/30/2025",
 		prompt: "Crocodile in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 28,
@@ -501,7 +501,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Dolphin",
 		creation_date: "01/30/2025",
 		prompt: "Dolphin in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 29,
@@ -519,7 +519,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Dragonfly",
 		creation_date: "01/30/2025",
 		prompt: "Dragonfly in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 30,
@@ -537,7 +537,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Elephant",
 		creation_date: "01/30/2025",
 		prompt: "Elephant in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 31,
@@ -555,7 +555,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Fire_ant",
 		creation_date: "01/30/2025",
 		prompt: "Fire Ant in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 32,
@@ -573,7 +573,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Frog",
 		creation_date: "01/30/2025",
 		prompt: "Frog in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 33,
@@ -591,7 +591,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Gazelle",
 		creation_date: "01/30/2025",
 		prompt: "Gazelle in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 34,
@@ -609,7 +609,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Gecko",
 		creation_date: "01/30/2025",
 		prompt: "Gecko in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 35,
@@ -627,7 +627,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray",
 		creation_date: "01/30/2025",
 		prompt: "Giant Manta Ray in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 36,
@@ -645,7 +645,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Giraffe",
 		creation_date: "01/30/2025",
 		prompt: "Giraffe in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 37,
@@ -663,7 +663,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Golden_eagle",
 		creation_date: "01/30/2025",
 		prompt: "Golden Eagle in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 38,
@@ -681,7 +681,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Gorilla",
 		creation_date: "01/30/2025",
 		prompt: "Gorilla in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 39,
@@ -699,7 +699,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Great_white_shark",
 		creation_date: "01/30/2025",
 		prompt: "Great White Shark in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 40,
@@ -717,7 +717,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Grizzly_bear",
 		creation_date: "01/30/2025",
 		prompt: "Grizzly Bear in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 41,
@@ -735,7 +735,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Atlantic_herring",
 		creation_date: "01/30/2025",
 		prompt: "Atlantic Herring in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 42,
@@ -753,7 +753,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Hippopotamus",
 		creation_date: "01/30/2025",
 		prompt: "Hippopotamus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 43,
@@ -771,7 +771,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Honey_bee",
 		creation_date: "01/30/2025",
 		prompt: "Honeybee in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 44,
@@ -789,7 +789,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tabanidae",
 		creation_date: "01/30/2025",
 		prompt: "Horsefly in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 45,
@@ -807,7 +807,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Horse",
 		creation_date: "01/30/2025",
 		prompt: "Horse in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 46,
@@ -825,7 +825,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/House_mouse",
 		creation_date: "01/30/2025",
 		prompt: "House Mouse in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 47,
@@ -843,7 +843,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Hummingbird",
 		creation_date: "01/30/2025",
 		prompt: "Hummingbird in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 48,
@@ -861,7 +861,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Iguana",
 		creation_date: "01/30/2025",
 		prompt: "Iguana in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 49,
@@ -879,7 +879,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Jaguar",
 		creation_date: "01/30/2025",
 		prompt: "Jaguar in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 50,
@@ -897,7 +897,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Jellyfish",
 		creation_date: "01/30/2025",
 		prompt: "Jellyfish in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 51,
@@ -915,7 +915,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Kangaroo",
 		creation_date: "01/30/2025",
 		prompt: "Kangaroo in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 52,
@@ -933,7 +933,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/King_cobra",
 		creation_date: "01/30/2025",
 		prompt: "King Cobra in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 53,
@@ -951,7 +951,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Koala",
 		creation_date: "01/30/2025",
 		prompt: "Koala in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 54,
@@ -969,7 +969,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Komodo_dragon",
 		creation_date: "01/30/2025",
 		prompt: "Komodo Dragon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 55,
@@ -987,7 +987,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Coccinellidae",
 		creation_date: "01/30/2025",
 		prompt: "Ladybug in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 56,
@@ -1005,7 +1005,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Lion",
 		creation_date: "01/30/2025",
 		prompt: "Lion in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 57,
@@ -1023,7 +1023,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Lizard",
 		creation_date: "01/30/2025",
 		prompt: "Lizard in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 58,
@@ -1041,7 +1041,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Luna_moth",
 		creation_date: "01/30/2025",
 		prompt: "Luna Moth in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 59,
@@ -1059,7 +1059,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Mallard",
 		creation_date: "01/30/2025",
 		prompt: "Mallard Duck in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 60,
@@ -1077,7 +1077,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Manatee",
 		creation_date: "01/30/2025",
 		prompt: "Manatee in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 61,
@@ -1095,7 +1095,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Monarch_butterfly",
 		creation_date: "01/30/2025",
 		prompt: "Monarch Butterfly in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 62,
@@ -1113,7 +1113,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Mosquito",
 		creation_date: "01/30/2025",
 		prompt: "Mosquito in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 63,
@@ -1131,7 +1131,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Narwhal",
 		creation_date: "01/30/2025",
 		prompt: "Narwhal in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 64,
@@ -1149,7 +1149,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Octopus",
 		creation_date: "01/30/2025",
 		prompt: "Octopus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 65,
@@ -1167,7 +1167,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tabby_cat",
 		creation_date: "01/30/2025",
 		prompt: "Orange Cat in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 66,
@@ -1185,7 +1185,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Orangutan",
 		creation_date: "01/30/2025",
 		prompt: "Orangutan in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 67,
@@ -1203,7 +1203,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Orca",
 		creation_date: "01/30/2025",
 		prompt: "Orca in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 68,
@@ -1221,7 +1221,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Ostrich",
 		creation_date: "01/30/2025",
 		prompt: "Ostrich in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 69,
@@ -1239,7 +1239,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Otter",
 		creation_date: "01/30/2025",
 		prompt: "Otter in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 70,
@@ -1257,7 +1257,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Giant_panda",
 		creation_date: "01/30/2025",
 		prompt: "Panda in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 71,
@@ -1275,7 +1275,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Peafowl",
 		creation_date: "01/30/2025",
 		prompt: "Peacock in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 72,
@@ -1293,7 +1293,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Penguin",
 		creation_date: "01/30/2025",
 		prompt: "Penguin in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 73,
@@ -1311,7 +1311,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Peregrine_falcon",
 		creation_date: "01/30/2025",
 		prompt: "Peregrine Falcon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 74,
@@ -1329,7 +1329,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Columbidae",
 		creation_date: "01/30/2025",
 		prompt: "Pigeon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 75,
@@ -1347,7 +1347,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Pig",
 		creation_date: "01/30/2025",
 		prompt: "Pig in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 76,
@@ -1365,7 +1365,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Polar_bear",
 		creation_date: "01/30/2025",
 		prompt: "Polar Bear in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 77,
@@ -1383,7 +1383,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Mantis",
 		creation_date: "01/30/2025",
 		prompt: "Praying Mantis in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 78,
@@ -1401,7 +1401,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Pteranodon",
 		creation_date: "01/30/2025",
 		prompt: "Pteranodon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 79,
@@ -1419,7 +1419,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tetraodontidae",
 		creation_date: "01/30/2025",
 		prompt: "Pufferfish in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 80,
@@ -1437,7 +1437,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Rabbit",
 		creation_date: "01/30/2025",
 		prompt: "Rabbit in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 81,
@@ -1455,7 +1455,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Raccoon",
 		creation_date: "01/30/2025",
 		prompt: "Raccoon in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 82,
@@ -1473,7 +1473,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Rainbow_trout",
 		creation_date: "01/30/2025",
 		prompt: "Rainbow Trout in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 83,
@@ -1491,7 +1491,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Raven",
 		creation_date: "01/30/2025",
 		prompt: "Raven in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 84,
@@ -1509,7 +1509,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Chaceon_quinquedens",
 		creation_date: "01/30/2025",
 		prompt: "Red Deep-Sea Crab in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 85,
@@ -1527,7 +1527,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Red_fox",
 		creation_date: "01/30/2025",
 		prompt: "Red Fox in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 86,
@@ -1545,7 +1545,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Rhinoceros",
 		creation_date: "01/30/2025",
 		prompt: "Rhinoceros in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 87,
@@ -1563,7 +1563,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Scarlet_macaw",
 		creation_date: "01/30/2025",
 		prompt: "Scarlet Macaw in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 88,
@@ -1581,7 +1581,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Seahorse",
 		creation_date: "01/30/2025",
 		prompt: "Seahorse in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 89,
@@ -1599,7 +1599,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Sequoioideae",
 		creation_date: "01/30/2025",
 		prompt: "Sequoia Tree in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 90,
@@ -1617,7 +1617,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Sheep",
 		creation_date: "01/30/2025",
 		prompt: "Sheep in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 91,
@@ -1635,7 +1635,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Shiba_Inu",
 		creation_date: "01/30/2025",
 		prompt: "Shiba Inu in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 92,
@@ -1653,7 +1653,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Siberian_tiger",
 		creation_date: "01/30/2025",
 		prompt: "Siberian Tiger in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 93,
@@ -1671,7 +1671,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Sloth",
 		creation_date: "01/30/2025",
 		prompt: "Sloth in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 94,
@@ -1689,7 +1689,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Snow_leopard",
 		creation_date: "01/30/2025",
 		prompt: "Snow Leopard in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 95,
@@ -1707,7 +1707,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Eugonobapta",
 		creation_date: "01/30/2025",
 		prompt: "Snowy Geometer in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 96,
@@ -1725,7 +1725,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Sperm_whale",
 		creation_date: "01/30/2025",
 		prompt: "Sperm Whale in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 97,
@@ -1743,7 +1743,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Spinosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Spinosaurus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 98,
@@ -1761,7 +1761,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Squid",
 		creation_date: "01/30/2025",
 		prompt: "Squid in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 99,
@@ -1779,7 +1779,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Stag_beetle",
 		creation_date: "01/30/2025",
 		prompt: "Stag Beetle in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 100,
@@ -1797,7 +1797,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Starfish",
 		creation_date: "01/30/2025",
 		prompt: "Starfish in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 101,
@@ -1815,7 +1815,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Stegosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Stegosaurus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 102,
@@ -1833,7 +1833,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Swan",
 		creation_date: "01/30/2025",
 		prompt: "Swan in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 103,
@@ -1851,7 +1851,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tarantula",
 		creation_date: "01/30/2025",
 		prompt: "Tarantula in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 104,
@@ -1869,7 +1869,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Termite",
 		creation_date: "01/30/2025",
 		prompt: "Termite in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 105,
@@ -1887,7 +1887,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tiger",
 		creation_date: "01/30/2025",
 		prompt: "Tiger in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 106,
@@ -1905,7 +1905,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tortoise",
 		creation_date: "01/30/2025",
 		prompt: "Tortoise in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 107,
@@ -1923,7 +1923,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Triceratops",
 		creation_date: "01/30/2025",
 		prompt: "Triceratops in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 108,
@@ -1941,7 +1941,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Turkey_(bird)",
 		creation_date: "01/30/2025",
 		prompt: "Turkey in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 109,
@@ -1959,7 +1959,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Tyrannosaurus",
 		creation_date: "01/30/2025",
 		prompt: "Tyrannosaurus Rex in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 110,
@@ -1977,7 +1977,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Velociraptor",
 		creation_date: "01/30/2025",
 		prompt: "Velociraptor in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 111,
@@ -1995,7 +1995,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Viper",
 		creation_date: "01/30/2025",
 		prompt: "Viper in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 112,
@@ -2013,7 +2013,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Walrus",
 		creation_date: "01/30/2025",
 		prompt: "Walrus in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 113,
@@ -2031,7 +2031,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Wildebeest",
 		creation_date: "01/30/2025",
 		prompt: "Wildebeest in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 114,
@@ -2049,7 +2049,7 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Wolf",
 		creation_date: "01/30/2025",
 		prompt: "Wolf in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 	{
 		id: 115,
@@ -2067,6 +2067,6 @@ export default [
 		wikipedia_link: "https://en.wikipedia.org/wiki/Zebra",
 		creation_date: "01/30/2025",
 		prompt: "Zebra in Pastel, comic book style, dimly lit, colorful, dynamic pose, minimal embellishments, Arny Freytag, wildlife photography, Pin-up style poster art",
-		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <grounding image>"
+		parameters: "--chaos 50 --ar 9:16 --style raw --sw 1000 --stylize 1000 --iw 3 --sref https://s.mj.run/Z_mVZnX2E08 https://s.mj.run/3Q0GHWq0HdY https://s.mj.run/csIFEycJD-w https://s.mj.run/TA0kg8YzHW0 --profile vq8w4qm --cref <Grounding Image>"
 	},
 ]

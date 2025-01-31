@@ -1,19 +1,25 @@
+:root {
+	--wikipedia-link-color: black;
+}
+
 /* Layouts */
 .entry-container {
 	width: 90%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 1fr 2.3fr;
+	grid-template-columns: 1fr 6fr;
+	gap: 1rem;
 }
 
 .source-container {
+	margin-top: 0.5rem;
 	display: flex;
 	align-items: center;
 	gap: 8px;
 
 }
 
-/* Main Image */
+/* Entry Main Image */
 .main-image {
 	border: 1px solid black;
 	border-radius: 4px;
@@ -21,7 +27,7 @@
 	width: 150px;
 }
 
-/* Source */
+/* Entry Source */
 .source-logo {
 	border: 1px solid black;
 	border-radius: 50%;
@@ -32,4 +38,44 @@
 
 .source-logo:hover {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.source {
+	font-family: "Aldrich", sans-serif;
+}
+
+/* Entry Wikipedia Link */
+.wikipedia-link {
+	text-decoration: underline;
+	color: var(--wikipedia-link-color);
+}
+
+.wikipedia-link:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+/* Entry Title */
+.entry-title {
+	font-family: "Oranienbaum", sans-serif;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+/* Entry Creation Date */
+.creation-date {
+	font-family: "Aldrich", sans-serif;
+	font-size: 8px;
+	margin-top: 0;
+}
+
+/* Entry Prompt */
+.prompt {
+	font-family: "Oranienbaum", sans-serif;
+}
+
+/* Entry Parameters */
+.parameters {
+	font-family: "Aldrich", sans-serif;
+	font-size: 10px;
 }
