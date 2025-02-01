@@ -221,7 +221,7 @@ export default [
 			src: "/images/bluefin_tuna.png",
 			alt: "Atlantic Bluefin Tuna"
 		},
-		title: "Atlantic Bluefin Tuna",
+		title: "Bluefin Tuna",
 		source: "Midjourney",
 		source_site: "https://www.midjourney.com",
 		source_logo: {
@@ -725,7 +725,7 @@ export default [
 			src: "/images/herring.png",
 			alt: "Atlantic Herring"
 		},
-		title: "Atlantic Herring",
+		title: "Herring",
 		source: "Midjourney",
 		source_site: "https://www.midjourney.com",
 		source_logo: {
@@ -1499,7 +1499,7 @@ export default [
 			src: "/images/red_crab.png",
 			alt: "Red Deep-Sea Crab"
 		},
-		title: "Red Deep-Sea Crab",
+		title: "Red Crab",
 		source: "Midjourney",
 		source_site: "https://www.midjourney.com",
 		source_logo: {
@@ -1587,7 +1587,7 @@ export default [
 		id: 89,
 		img: {
 			src: "/images/sequoia_tree.png",
-			alt: "Sequoia Tree"
+			alt: "Sequoia"
 		},
 		title: "Sequoia Tree",
 		source: "Midjourney",
@@ -1625,7 +1625,7 @@ export default [
 			src: "/images/shiba_inu_dog.png",
 			alt: "Shiba Inu Dog"
 		},
-		title: "Shiba Inu Dog",
+		title: "Shiba Inu",
 		source: "Midjourney",
 		source_site: "https://www.midjourney.com",
 		source_logo: {

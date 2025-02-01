@@ -42,8 +42,7 @@ export default function Entry(props) {
 
 			<div className="info-container">
 				<div className="source-container">
-					<a c
-						lassName="source-site" 
+					<a className="source-site" 
 						href={props.source_site}
 					>
 						<img 
