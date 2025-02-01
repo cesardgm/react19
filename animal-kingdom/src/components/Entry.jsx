@@ -7,10 +7,14 @@ export default function Entry(props) {
 	  .map((part, index) => {
 	    if (!part) return null; // Ignore empty strings
 	    
-	    return part.startsWith('--') ? (
-	      <span key={index} className="paramName">{part}</span>
-	    ) : (
-	      <span key={index} className="paramValue">{part}</span>
+	    return(
+			<div key={index} className="paramValuePair">
+				{part.startsWith('--') ? (
+					<span className="paramName">{part}</span>
+				) : (
+					<span className="paramValue">{part}</span>
+				)}
+			</div>
 	    );
 	  });
 
@@ -50,7 +54,7 @@ export default function Entry(props) {
 
 				<p className="creation-date">{props.creation_date}</p>
 				<p className="prompt">{props.prompt}</p>
-				<p className="parameters">{parametersElements}</p>
+				<div className="parameters">{parametersElements}</div>
 			</div>
 		</div>
 	)

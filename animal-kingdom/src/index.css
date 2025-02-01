@@ -78,6 +78,13 @@
 .parameters {
 	font-family: "Source Code Pro", sans-serif;
 	font-size: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.paramValuePair {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 .paramName {
@@ -86,4 +93,5 @@
 
 .paramValue {
 	color: #e66a00;
+	margin-left: -2.25rem;
 }
