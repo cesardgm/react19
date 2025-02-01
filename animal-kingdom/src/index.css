@@ -1,3 +1,4 @@
+/* Colors */
 :root {
 	--background-color: #f9f9f9;
 
@@ -13,6 +14,9 @@
 	--wikipedia-link-hover-color: #e66a00;
 	--creation-date-color: #3399ff;
 	--prompt-color: black;
+	--parameters-border-color: black;
+	--paramName-color: #e66a00;
+	--paramValue-color: #3399ff;
 }
 
 body {
@@ -119,13 +123,12 @@ body {
 	font-size: 12px;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr;
-	border: 1px dotted black;
+	border: 1px dotted var(--parameters-border-color);
 	width: 50%;
 	margin-bottom: 0.25rem;
 }
 
 .paramSegment {
-	background-color: #f9f9f9;
 	padding: 2.5px;
 }
 
@@ -135,10 +138,10 @@ body {
 }
 
 .paramName {
-	color: #e66a00;
+	color: var(--paramName-color);
 }
 
 .paramValue {
-	color: #3399ff;
+	color: var(--paramValue-color);
 	margin-left: -2.25rem;
 }
