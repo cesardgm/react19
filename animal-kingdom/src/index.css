@@ -1,9 +1,22 @@
 :root {
-	--wikipedia-link-color: black;
+	--background-color: #f9f9f9;
+
+	--entry-container-color: #b7b7b7;
+	--entry-container-background-color: white;
+
+	--main-image-container-color: black;
+	--main-image-container-background-color: black;
+
+	--entry-title-color: black;
+	--entry-title-hover-color: #e66a00;
+	--wikipedia-link-color: #e66a00;
+	--wikipedia-link-hover-color: #e66a00;
+	--creation-date-color: #3399ff;
+	--prompt-color: black;
 }
 
 body {
-		background-color: #f9f9f9;
+		background-color: var(--background-color);
 }
 
 /* Layouts */
@@ -13,10 +26,10 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 6fr;
 	gap: 1rem;
-	border: 2px solid #b7b7b7;
+	border: 2px solid var(--entry-container-color);
 	border-radius: 5px;
 	margin-bottom: 0.5rem;
-	background-color: white;
+	background-color: var(--entry-container-background-color);
 }
 
 .source-container {
@@ -33,8 +46,8 @@ body {
 	margin-bottom: 1rem;
 	margin-right: 1rem;
 	border-radius: 5px;
-	border: 1px solid black;
-	background-color: black;
+	border: 1px solid var(--main-image-container-color);
+	background-color: var(--main-image-container-background-color);
 }
 
 /* Entry Main Image */
@@ -67,7 +80,7 @@ body {
 }
 
 .wikipedia-link:hover {
-	color: #e66a00;
+	color: var(--wikipedia-link-hover-color);
 	text-decoration: none;
 }
 
@@ -77,6 +90,13 @@ body {
 	margin-bottom: 0;
 	margin-top: 0.3rem;
 	display: inline;
+	/* Color inherited from .wikipedia-link */
+	/* To keep the underline orange we override here */
+	color: var(--entry-title-color);
+}
+
+.entry-title:hover {
+	color: var(--entry-title-hover-color);
 }
 
 /* Entry Creation Date */
@@ -84,12 +104,13 @@ body {
 	font-family: "Aldrich", sans-serif;
 	font-size: 10px;
 	margin-top: 0;
-	color: #3399ff;
+	color: var(--creation-date-color);
 }
 
 /* Entry Prompt */
 .prompt {
 	font-family: "Roboto", sans-serif;
+	color: var(--prompt-color);
 }
 
 /* Entry Parameters */
