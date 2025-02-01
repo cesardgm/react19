@@ -1,20 +1,31 @@
 export default function Entry(props) {
 
 	const parametersElements = props.parameters
-	  // Split the string into alternating parts of parameters and values
-	  .split(/(--\S+)/g)
-	  // Process each part to wrap parameters and values appropriately
-	  .map((part, index) => {
-	    if (!part) return null; // Ignore empty strings
-	    
-	    return(
-			<div key={index} className="paramValuePair">
-				{part.startsWith('--') ? (
-					<span className="paramName">{part}</span>
-				) : (
-					<span className="paramValue">{part}</span>
-				)}
-			</div>
+	  .split(/(--\S+)/g)  // Split the parameters string by any occurrence of '--' followed by non-space characters
+	  .map((part, index, partsArray) => {  // Iterate over the resulting parts
+	    if (!part.trim()) return null;  // If the part is empty or contains only whitespace, ignore it
+
+	    const isParamName = part.startsWith('--');  // Check if the part is a parameter name (starts with '--')
+	    const isSRefValue = !isParamName && partsArray[index - 1] === '--sref';  // Check if the part is a value following '--sref'
+
+	    return (
+	      <div key={index} className="paramSegment">  {/* Wrap each part in a 'paramSegment' div */}
+	        {isParamName ? (  // If it's a parameter name (starts with '--')
+	          <span className="paramName">{part}</span>  // Render it inside a span with 'paramName' class
+	        ) : isSRefValue ? (  // If it's an 'sref' value (following '--sref')
+	          // Special handling for --sref values: split them into individual URLs
+	          <div className="paramValue sref-values">
+	            {part.trim().split(/\s+/).map((url, urlIndex) => (  // Split by whitespace and map over each URL
+	              <div key={urlIndex} className="url-line">
+	                {url}  {/* Display each URL */}
+	                {urlIndex < part.trim().split(/\s+/).length - 1 && <br />}  {/* If there are more URLs, add a line break */}
+	              </div>
+	            ))}
+	          </div>
+	        ) : (  // If it's a regular parameter value
+	          <span className="paramValue">{part}</span>  // Render it inside a span with 'paramValue' class
+	        )}
+	      </div>
 	    );
 	  });
 
@@ -44,7 +55,6 @@ export default function Entry(props) {
 					<span className="source">{props.source}</span>
 				</div>
 
-				
 				<a 
 					className="wikipedia-link" 
 					href={props.wikipedia_link}
