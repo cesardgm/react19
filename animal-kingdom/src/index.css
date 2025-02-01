@@ -2,6 +2,10 @@
 	--wikipedia-link-color: black;
 }
 
+body {
+		background-color: white;
+}
+
 /* Layouts */
 .entry-container {
 	width: 90%;
@@ -9,6 +13,9 @@
 	display: grid;
 	grid-template-columns: 1fr 6fr;
 	gap: 1rem;
+	border: 1px solid black;
+	margin-bottom: 0.5rem;
+	background-color: #f9f9f9;
 }
 
 .source-container {
@@ -21,8 +28,6 @@
 
 /* Entry Main Image */
 .main-image {
-	border: 1px solid black;
-	border-radius: 4px;
 	padding: 5px;
 	width: 150px;
 }
@@ -67,6 +72,7 @@
 	font-family: "Aldrich", sans-serif;
 	font-size: 8px;
 	margin-top: 0;
+	color: #333333;
 }
 
 /* Entry Prompt */
@@ -79,7 +85,7 @@
 	font-family: "Source Code Pro", sans-serif;
 	font-size: 8px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 
 .paramValuePair {
