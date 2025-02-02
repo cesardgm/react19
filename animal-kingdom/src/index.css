@@ -20,31 +20,132 @@
 }
 
 body {
-		background-color: var(--background-color);
+	background-color: var(--background-color);
 }
 
+.entry-container {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	border: 2px solid var(--entry-container-color);
+	border-radius: 5px;
+	margin-bottom: 0.5rem;
+	background-color: var(--entry-container-background-color);
+}
 
+.source-container {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	gap: 8px;
 
+}
+
+.main-image-container {
+	border: 1px solid var(--main-image-container-color);
+	background-color: var(--main-image-container-background-color);
+	display: inline-flex;
+	justify-content: center;
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+/* Entry Main Image */
+.main-image {
+	padding: 5px;
+	height: auto;
+}
+
+/* Entry Source */
+.source-logo {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	width: 24px;
+	height: 24px;
+}
+
+.source-logo:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.source {
+	font-family: "Oranienbaum", sans-serif;
+}
+
+/* Entry Wikipedia Link */
+.wikipedia-link {
+	text-decoration: underline;
+	color: var(--wikipedia-link-color);
+}
+
+.wikipedia-link:hover {
+	color: var(--wikipedia-link-hover-color);
+	text-decoration: none;
+}
+
+/* Entry Title */
+.entry-title {
+	font-family: "Playfair Display", sans-serif;
+	margin-bottom: 0;
+	margin-top: 0.3rem;
+	display: inline;
+	/* Color inherited from .wikipedia-link */
+	/* To keep the underline orange we override here */
+	color: var(--entry-title-color);
+}
+
+.entry-title:hover {
+	color: var(--entry-title-hover-color);
+}
+
+/* Entry Creation Date */
+.creation-date {
+	font-family: "Aldrich", sans-serif;
+	font-size: 10px;
+	margin-top: 0;
+	color: var(--creation-date-color);
+}
+
+/* Entry Prompt */
+.prompt {
+	font-family: "Roboto", sans-serif;
+	color: var(--prompt-color);
+}
+
+/* Entry Parameters */
+.parameters {
+	font-family: "Source Code Pro", sans-serif;
+	display: grid;
+	border: 1px dotted var(--parameters-border-color);
+}
+
+.paramSegment {
+	padding: 2.5px;
+}
+
+.paramValuePair {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.paramName {
+	color: var(--paramName-color);
+}
+
+.paramValue {
+	color: var(--paramValue-color);
+	margin-left: -2.25rem;
+}
+
+/* Responsiveness to Screen Size*/
+/********************************/
 /* Layouts for 1850px width */
 @media only screen and (min-width: 1850px) {
 	.entry-container {
 		width: 90%;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: 1fr 6fr;
 		gap: 1rem;
-		border: 2px solid var(--entry-container-color);
-		border-radius: 5px;
-		margin-bottom: 0.5rem;
-		background-color: var(--entry-container-background-color);
-	}
-
-	.source-container {
-		margin-top: 2rem;
-		display: flex;
-		align-items: center;
-		gap: 8px;
-
 	}
 
 	.main-image-container {
@@ -52,126 +153,25 @@ body {
 		margin-left: 1rem;
 		margin-bottom: 1rem;
 		margin-right: 1rem;
-		border-radius: 5px;
-		border: 1px solid var(--main-image-container-color);
-		background-color: var(--main-image-container-background-color);
+		border-radius: 5px;	
 	}
 
-	/* Entry Main Image */
 	.main-image {
-		padding: 5px;
 		width: 200px;
 	}
 
-	/* Entry Source */
-	.source-logo {
-		border: 1px solid black;
-		border-radius: 50%;
-		padding: 5px;
-		width: 24px;
-		height: 24px;
-	}
-
-	.source-logo:hover {
-		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	}
-
-	.source {
-		font-family: "Oranienbaum", sans-serif;
-	}
-
-	/* Entry Wikipedia Link */
-	.wikipedia-link {
-		text-decoration: underline;
-		color: var(--wikipedia-link-color);
-	}
-
-	.wikipedia-link:hover {
-		color: var(--wikipedia-link-hover-color);
-		text-decoration: none;
-	}
-
-	/* Entry Title */
-	.entry-title {
-		font-family: "Playfair Display", sans-serif;
-		margin-bottom: 0;
-		margin-top: 0.3rem;
-		display: inline;
-		/* Color inherited from .wikipedia-link */
-		/* To keep the underline orange we override here */
-		color: var(--entry-title-color);
-	}
-
-	.entry-title:hover {
-		color: var(--entry-title-hover-color);
-	}
-
-	/* Entry Creation Date */
-	.creation-date {
-		font-family: "Aldrich", sans-serif;
-		font-size: 10px;
-		margin-top: 0;
-		color: var(--creation-date-color);
-	}
-
-	/* Entry Prompt */
-	.prompt {
-		font-family: "Roboto", sans-serif;
-		color: var(--prompt-color);
-	}
-
-	/* Entry Parameters */
 	.parameters {
-		font-family: "Source Code Pro", sans-serif;
 		font-size: 12px;
-		display: grid;
-		grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr;
-		border: 1px dotted var(--parameters-border-color);
+		grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr; 
 		width: 70%;
-		margin-bottom: 0.25rem;
-	}
-
-	.paramSegment {
-		padding: 2.5px;
-	}
-
-	.paramValuePair {
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-
-	.paramName {
-		color: var(--paramName-color);
-	}
-
-	.paramValue {
-		color: var(--paramValue-color);
-		margin-left: -2.25rem;
 	}
 }
 
-
-
 /* Layouts for 1849px width and below */
-@media only screen and (min-width: 1212px) and (max-width: 1849px) {
+@media only screen and (min-width: 963px) and (max-width: 1849px) {
 	.entry-container {
 		width: 95%;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: 1fr 6fr;
 		gap: 0.1rem;
-		border: 2px solid var(--entry-container-color);
-		border-radius: 5px;
-		margin-bottom: 0.5rem;
-		background-color: var(--entry-container-background-color);
-	}
-
-	.source-container {
-		margin-top: 2rem;
-		display: flex;
-		align-items: center;
-		gap: 8px;
-
 	}
 
 	.main-image-container {
@@ -180,124 +180,23 @@ body {
 		margin-bottom: 0.5rem;
 		margin-right: 0.5rem;
 		border-radius: 2.5px;
-		border: 1px solid var(--main-image-container-color);
-		background-color: var(--main-image-container-background-color);
 	}
 
-	/* Entry Main Image */
 	.main-image {
-		padding: 5px;
 		width: 300px;
 	}
 
-	/* Entry Source */
-	.source-logo {
-		border: 1px solid black;
-		border-radius: 50%;
-		padding: 5px;
-		width: 24px;
-		height: 24px;
-	}
-
-	.source-logo:hover {
-		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	}
-
-	.source {
-		font-family: "Oranienbaum", sans-serif;
-	}
-
-	/* Entry Wikipedia Link */
-	.wikipedia-link {
-		text-decoration: underline;
-		color: var(--wikipedia-link-color);
-	}
-
-	.wikipedia-link:hover {
-		color: var(--wikipedia-link-hover-color);
-		text-decoration: none;
-	}
-
-	/* Entry Title */
-	.entry-title {
-		font-family: "Playfair Display", sans-serif;
-		margin-bottom: 0;
-		margin-top: 0.3rem;
-		display: inline;
-		/* Color inherited from .wikipedia-link */
-		/* To keep the underline orange we override here */
-		color: var(--entry-title-color);
-	}
-
-	.entry-title:hover {
-		color: var(--entry-title-hover-color);
-	}
-
-	/* Entry Creation Date */
-	.creation-date {
-		font-family: "Aldrich", sans-serif;
-		font-size: 10px;
-		margin-top: 0;
-		color: var(--creation-date-color);
-	}
-
-	/* Entry Prompt */
-	.prompt {
-		font-family: "Roboto", sans-serif;
-		color: var(--prompt-color);
-	}
-
-	/* Entry Parameters */
 	.parameters {
-		font-family: "Source Code Pro", sans-serif;
 		font-size: 11px;
-		display: grid;
-		grid-template-columns: 1fr 1.5fr 1fr 2fr;
-		border: 1px dotted var(--parameters-border-color);
-		width: 70%;
-		margin-bottom: 0.25rem;
-	}
-
-	.paramSegment {
-		padding: 2.5px;
-	}
-
-	.paramValuePair {
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-
-	.paramName {
-		color: var(--paramName-color);
-	}
-
-	.paramValue {
-		color: var(--paramValue-color);
-		margin-left: -2.25rem;
+		grid-template-columns: 1fr 1.2fr 1fr 2fr;
+		width: 95%;
 	}
 }
 
-
-
-/* Layouts for 1849px width and below */
-@media only screen and (min-width: 1px) and (max-width: 1211px) {
+@media only screen and (min-width: 435px) and (max-width: 962px) {
 	.entry-container {
 		width: 99%;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: 1fr 6fr;
 		gap: 0.1rem;
-		border: 2px solid var(--entry-container-color);
-		border-radius: 5px;
-		margin-bottom: 0.5rem;
-		background-color: var(--entry-container-background-color);
-	}
-
-	.source-container {
-		margin-top: 2rem;
-		display: flex;
-		align-items: center;
-		gap: 8px; 
 	}
 
 	.main-image-container {
@@ -305,109 +204,92 @@ body {
 		margin-left: 0.5rem;
 		margin-bottom: 0.5rem;
 		margin-right: 0.5rem;
-		border-radius: 2.5px;
-		border: 1px solid var(--main-image-container-color);
-		background-color: var(--main-image-container-background-color);
-		display: inline-flex;
-		justify-content: center;
-		padding: 0;
-		width: auto;
-		height: auto;
+		border-radius: 2.5px;		
 	}
 
-	/* Entry Main Image */
 	.main-image {
-		padding: 5px;
 		width: 200px;
 		height: auto;
 	}
 
-	/* Entry Source */
 	.source-logo {
-		border: 1px solid black;
-		border-radius: 50%;
-		padding: 5px;
 		width: 12px;
 		height: 12px;
 	}
 
-	.source-logo:hover {
-		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	}
-
 	.source {
-		font-family: "Oranienbaum", sans-serif;
 		font-size: 10px;
 	}
 
-	/* Entry Wikipedia Link */
-	.wikipedia-link {
-		text-decoration: underline;
-		color: var(--wikipedia-link-color);
-	}
-
-	.wikipedia-link:hover {
-		color: var(--wikipedia-link-hover-color);
-		text-decoration: none;
-	}
-
-	/* Entry Title */
 	.entry-title {
-		font-family: "Playfair Display", sans-serif;
-		margin-bottom: 0;
-		margin-top: 0.3rem;
-		display: inline;
-		/* Color inherited from .wikipedia-link */
-		/* To keep the underline orange we override here */
-		color: var(--entry-title-color);
 		font-size: 12px;
 	}
 
-	.entry-title:hover {
-		color: var(--entry-title-hover-color);
-	}
-
-	/* Entry Creation Date */
 	.creation-date {
-		font-family: "Aldrich", sans-serif;
 		font-size: 7px;
-		margin-top: 0;
-		color: var(--creation-date-color);
 	}
 
-	/* Entry Prompt */
 	.prompt {
-		font-family: "Roboto", sans-serif;
-		color: var(--prompt-color);
 		font-size: 9px;
 	}
 
-	/* Entry Parameters */
 	.parameters {
-		font-family: "Source Code Pro", sans-serif;
 		font-size: 8px;
-		display: grid;
 		grid-template-columns: 1.1fr 1.1fr;
-		border: 1px dotted var(--parameters-border-color);
 		width: 90%;
 		margin-bottom: 0.2rem;
 	}
+}
 
-	.paramSegment {
-		padding: 2.5px;
+@media only screen and (min-width: 1px) and (max-width: 434px) {
+	.entry-container {
+		width: 99%;
+		gap: 0.1rem;
 	}
 
-	.paramValuePair {
-		display: grid;
-		grid-template-columns: 1fr;
+	.main-image-container {
+		margin-top: 0.5rem;
+		margin-left: 0.5rem;
+		margin-bottom: 0.5rem;
+		margin-right: 0.5rem;
+		border-radius: 2.5px;		
 	}
 
-	.paramName {
-		color: var(--paramName-color);
+	.main-image {
+		width: 150px;
+		height: auto;
 	}
 
-	.paramValue {
-		color: var(--paramValue-color);
-		margin-left: -2.25rem;
+	.source-container {
+		margin-top: 0.5rem;
+
+	}
+
+	.source-logo {
+		width: 12px;
+		height: 12px;
+	}
+
+	.source {
+		font-size: 10px;
+	}
+
+	.entry-title {
+		font-size: 12px;
+	}
+
+	.creation-date {
+		font-size: 7px;
+	}
+
+	.prompt {
+		font-size: 8px;
+	}
+
+	.parameters {
+		font-size: 7px;
+		grid-template-columns: 1fr 0.8fr;
+		width: 95%;
+		margin-bottom: 0.5rem;
 	}
 }
