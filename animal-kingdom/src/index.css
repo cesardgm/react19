@@ -1,5 +1,5 @@
-/* Colors */
 :root {
+	/* Colors */
 	--background-color: #f9f9f9;
 
 	--entry-container-color: #b7b7b7;
@@ -38,7 +38,6 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 8px;
-
 }
 
 .main-image-container {
