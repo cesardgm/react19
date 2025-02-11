@@ -136,6 +136,11 @@ body {
 .paramValue {
 	color: var(--paramValue-color);
 	margin-left: -2.25rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 3px;
+	margin-right: 2px;
 }
 
 /* Responsiveness to Screen Size*/
@@ -162,7 +167,7 @@ body {
 	.parameters {
 		font-size: 12px;
 		grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr; 
-		width: 70%;
+		width: 50%;
 	}
 }
 
@@ -188,11 +193,11 @@ body {
 	.parameters {
 		font-size: 11px;
 		grid-template-columns: 1fr 1.2fr 1fr 2fr;
-		width: 95%;
+		width: 80%;
 	}
 }
 
-@media only screen and (min-width: 435px) and (max-width: 962px) {
+@media only screen and (min-width: 639px) and (max-width: 962px) {
 	.entry-container {
 		width: 99%;
 		gap: 0.1rem;
@@ -235,12 +240,12 @@ body {
 	.parameters {
 		font-size: 8px;
 		grid-template-columns: 1.1fr 1.1fr;
-		width: 90%;
+		width: 50%;
 		margin-bottom: 0.2rem;
 	}
 }
 
-@media only screen and (min-width: 1px) and (max-width: 434px) {
+@media only screen and (min-width: 1px) and (max-width: 638px) {
 	.entry-container {
 		width: 99%;
 		gap: 0.1rem;
@@ -288,7 +293,7 @@ body {
 	.parameters {
 		font-size: 7px;
 		grid-template-columns: 1fr 0.8fr;
-		width: 95%;
+		width: 70%;
 		margin-bottom: 0.5rem;
 	}
 }
