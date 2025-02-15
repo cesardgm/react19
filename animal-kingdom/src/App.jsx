@@ -11,6 +11,7 @@ export default function App() {
 	const [searchedPictures, setSearchedPictures] = useState([]);
 	const [isLoading, setIsLoading] = useState(false)
 	const [isError, setIsError] = useState(false)
+	const [isOpen, setIsOpen] = useState(false);
 
 	function getAsyncPictures() {
 		return new Promise(function(resolve) {
@@ -34,11 +35,18 @@ export default function App() {
 	useEffect(fetchData, []);
 
 	function handleInputChange(event) {
-		setSearchTerm(event.target.value);
+		const newSearchTerm = event.target.value;
+		setSearchTerm(newSearchTerm);
+		if (newSearchTerm.length === 0) {
+    		setIsOpen(false); // Close the dropdown if input is empty
+  		} else {
+    		setIsOpen(true); // Open the dropdown if input has text
+  		};
 	};
 
 	function handleSearchSubmit(event) {
 		event.preventDefault();
+		setIsOpen(false);
 
 		const filteredPictures = allPictures.filter(function (entry) {
 			return entry.title.toLowerCase().includes(searchTerm.toLowerCase());
@@ -49,7 +57,7 @@ export default function App() {
 
 	return (
 		<>
-			<SearchForm searchTerm={searchTerm} onInputChange={handleInputChange} onSearchSubmit={handleSearchSubmit} />
+			{	isLoading === true ? null : <SearchForm searchedPictures={searchedPictures} isOpen={isOpen} searchTerm={searchTerm} onInputChange={handleInputChange} onSearchSubmit={handleSearchSubmit} />	}
 			{	isError === true ? <p>Something went wrong ...</p> : null	}
 			{	isLoading === true ? <Spinner/> : <Gallery searchedPictures={searchedPictures} />	}
 		</>
