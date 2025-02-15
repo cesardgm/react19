@@ -1,8 +1,8 @@
-import Entry from "./components/Entry.jsx";
-import allPictures from "./gallery.js";
-import SearchForm from "./components/SearchForm.jsx";
-import Spinner from "./components/Spinner.jsx";
-import Gallery from "./components/Gallery.jsx"
+import Entry 		from "./components/Entry.jsx";
+import SearchForm 	from "./components/SearchForm.jsx";
+import Spinner 		from "./components/Spinner.jsx";
+import Gallery 		from "./components/Gallery.jsx"
+import allPictures 	from "./gallery.js";
 import { useState, useEffect } from 'react';
 
 export default function App() {

@@ -14,7 +14,7 @@
 	--wikipedia-link-hover-color: #e66a00;
 	--creation-date-color: #3399ff;
 	--prompt-color: black;
-	--parameters-border-color: black;
+	--parameters-border-color: #b7b7b7;
 	--paramName-color: #e66a00;
 	--paramValue-color: #3399ff;
 }
@@ -61,9 +61,6 @@ body {
 .source-logo {
 	border: 1px solid black;
 	border-radius: 50%;
-	padding: 5px;
-	width: 24px;
-	height: 24px;
 }
 
 .source-logo:hover {
@@ -118,7 +115,7 @@ body {
 .parameters {
 	font-family: "Source Code Pro", sans-serif;
 	display: grid;
-	border: 1px dotted var(--parameters-border-color);
+	border: 1px solid var(--parameters-border-color);
 }
 
 .paramSegment {
@@ -165,6 +162,12 @@ body {
 		width: 200px;
 	}
 
+	.source-logo {
+		padding: 5px;
+		width: 40px;
+		height: 40px;
+	}
+
 	.parameters {
 		font-size: 12px;
 		grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr; 
@@ -189,6 +192,12 @@ body {
 
 	.main-image {
 		width: 300px;
+	}
+
+	.source-logo {
+		padding: 5px;
+		width: 36px;
+		height: 36px;
 	}
 
 	.parameters {
@@ -218,16 +227,17 @@ body {
 	}
 
 	.source-logo {
-		width: 12px;
-		height: 12px;
+		padding: 5px;
+		width: 30px;
+		height: 30px;
 	}
 
 	.source {
-		font-size: 10px;
+		font-size: 14px;
 	}
 
 	.entry-title {
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	.creation-date {
@@ -271,16 +281,17 @@ body {
 	}
 
 	.source-logo {
-		width: 12px;
-		height: 12px;
+		padding: 2.5px;
+		width: 20px;
+		height: 20px;
 	}
 
 	.source {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.entry-title {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.creation-date {
@@ -345,6 +356,7 @@ body {
 /*************** SearchForm Component ********************************/
 /* Center the form using Flexbox */
 .search-form-container {
+	position: fixed;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -354,24 +366,23 @@ body {
 }
 
 .search-input {
-  width: 150px;
+  width: 200px;
   height: 15px;
   padding: 5px 5px;
   margin: 5px 0;
   margin-left: 3px;
   border-radius: 5px;
   color: #535353;
-  border: 1px solid #ccc; /* Set a border to avoid disappearing border */
+  border: 2px solid #ccc; /* Set a border to avoid disappearing border */
   outline: none; /* Remove default outline on focus */
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: width 0.4s ease-in-out; /* Expand when focused */
 }
 
 .search-input:focus {
-  border: 1.5px solid #ffb373; /* Your custom focus border */
+  border: 3px solid #ffb373; /* Your custom focus border */
   outline: none; /* Ensure no outline appears when focused */
-  width: 250px;
-  box-shadow: none;
+  width: 300px;
 }
 
 .search-input::placeholder {
