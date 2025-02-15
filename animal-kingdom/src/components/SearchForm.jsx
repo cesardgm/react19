@@ -1,19 +1,22 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function SearchFrom({ searchedPictures, searchTerm, onInputChange, onSearchSubmit, isOpen }) {
 
-//const containerRef = useRef();
+	const filteredTitles = searchedPictures
+	  .filter(function(picture) {
+	    return picture.title.toLowerCase().includes(searchTerm.toLowerCase());
+	  })
+	  .map(function(picture) {
+	    return { title: picture.title, id: picture.id };
+	  })
+	  .slice(0, 3);
 
-const filteredTitles = searchedPictures
-  .filter(function(picture) {
-    return picture.title.toLowerCase().includes(searchTerm.toLowerCase());
-  })
-  .map(function(picture) {
-    return picture.title;
-  })
-  .slice(0, 3);
+	// If the filtered result is empty, return an array with the default object
+	const result = filteredTitles.length === 0
+		? [{ title: "No Matches Found", id: -1 }]
+		: filteredTitles
 
 	return (
 		<div className="search-dropdown-container">
@@ -31,8 +34,28 @@ const filteredTitles = searchedPictures
 			<AnimatePresence>
 				{
 					isOpen === true ? (
-							<motion.div className="dropdown-container">
-								{ filteredTitles }
+							<motion.div 
+								className="dropdown-container"
+								initial={{ opacity: 0, y: -20 }}
+								animate={{ opacity: 1, y: 0 }}
+								exit={{ opacity: 0, y: -20 }}
+							>
+								{ result.map(function(data, i) {
+									return (
+										<motion.div 
+											className="dropdown-item"
+											initial={{ opacity: 0 }}
+											animate={{ opacity: 1 }}
+											transition= {{
+												delay: i * 0.1,
+											}}
+											exit={{ opacity: 0, y: -20 }}
+											key={data.id}
+										>
+											{data.title}
+										</motion.div>)
+									})
+								}
 							</motion.div>) : null
 				}
 			</AnimatePresence>

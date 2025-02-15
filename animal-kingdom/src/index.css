@@ -358,9 +358,8 @@ body {
 .search-dropdown-container {
   position: fixed;
   top: 0; /* Fix it to the top of the screen */
-  left: 50%;
-  transform: translateX(-50%); /* Center horizontally */
-  width: 100%;
+  left: 50%; /* center horizontally (1/2) */
+  transform: translateX(-50%); /* Center horizontally (2/2) */
   z-index: 999; /* Ensure it stays on top of other elements */
 }
 
@@ -369,12 +368,13 @@ body {
   display: flex;
   justify-content: center; /* Center the input and button horizontally */
   align-items: center; /* Align input and button vertically */
-  width: 80%; /* Set width relative to the screen size */
+  width: 100%; /* Set width relative to the screen size */
   max-width: 600px; /* Limit the width to prevent it from growing too wide */
   margin: 10px auto; /* Center the form with a margin */
 }
 
 .search-input {
+	font-family: "Roboto", sans-serif;
   width: 200px;
   height: 15px;
   padding: 5px 5px;
@@ -391,7 +391,8 @@ body {
 .search-input:focus {
   border: 3px solid #ffb373; /* Your custom focus border */
   outline: none; /* Ensure no outline appears when focused */
-  width: 400px;
+  width: 235px;
+  box-shadow: none;
 }
 
 .search-input::placeholder {
@@ -433,16 +434,23 @@ body {
 /* Dropdown container styling */
 .dropdown-container {
   position: absolute;
-  top: 80%; /* Place it right below the search form */
-  left: 22.5%;
-  width: 50%;
-  max-width: 600px; /* Ensure the dropdown aligns with the form's max width */
+  top: 85%; /* Place it right below the search form */
   margin-top: 0px; /* Space between the search bar and dropdown */
-  border: 2px solid #ccc;
-  background-color: white;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  left: 1.5%; /* A lot of tinkering with this one */
+  border: 2px solid #73b9ff;
+  background-color: #f9f9f9;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   z-index: 999;
   max-height: 300px; /* Set a max height and make it scrollable */
-  overflow-y: auto;
+  max-width: 400px;
+  width: 235px;
+  padding: 5px;
+}
+
+.dropdown-item {
+	border-bottom: 1px solid #ccc;
+	font-family: "Roboto", sans-serif;
+	color: #535353;
+	font-size: 12px;
 }
