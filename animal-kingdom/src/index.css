@@ -311,7 +311,7 @@ body {
 
 .spinner {
   border: 16px solid #e2e2e2; /* Light grey */
-  border-top: 16px solid #2693ff; /* Blue */
+  border-top: 16px solid #73b9ff; /* Blue */
   border-bottom: 16px solid #ffb373; /* Orange */
   border-radius: 50%;
   width: 120px;
@@ -363,13 +363,15 @@ body {
   color: #535353;
   border: 1px solid #ccc; /* Set a border to avoid disappearing border */
   outline: none; /* Remove default outline on focus */
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: width 0.4s ease-in-out; /* Expand when focused */
 }
 
 .search-input:focus {
-  border: 1.3px solid #ffb373; /* Your custom focus border */
+  border: 1.5px solid #ffb373; /* Your custom focus border */
   outline: none; /* Ensure no outline appears when focused */
   width: 250px;
+  box-shadow: none;
 }
 
 .search-input::placeholder {
@@ -377,21 +379,19 @@ body {
   font-style: italic; /* Optional: you can also style it with italic or other styles */
 }
 
-.search-label {
-  color: #2693ff;
-}
-
 .search-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  width: 30px; /* Set width of the button (adjust as needed) */
+  height: 30px; /* Set height of the button (adjust as needed) */
   margin-left: 3px;
   border: 2px solid white;
   border-radius: 20px;
   color: white;
   background-color: #3399ff;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 5px 12px;
   transition-duration: 0.3s; /* For hover transition */
+  cursor: pointer;
 }
 
 /* Hover effect for button */
