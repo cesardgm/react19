@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { AnimatePresence, motion } from "motion/react";
 
-export default function SearchFrom({ searchedPictures, searchTerm, onInputChange, onSearchSubmit, isOpen }) {
+export default function SearchFrom({ searchedPictures, searchTerm, onInputChange, onSearchSubmit, isOpen, onInputClick }) {
 
 	const filteredTitles = searchedPictures
 	  .filter(function(picture) {
@@ -52,7 +52,7 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 											exit={{ opacity: 0, y: -20 }}
 											key={data.id}
 										>
-											{data.title}
+											<span onClick={(event) => onInputClick(event,data.title)}>{data.title}</span>
 										</motion.div>)
 									})
 								}
