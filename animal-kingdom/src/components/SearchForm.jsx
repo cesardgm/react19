@@ -1,17 +1,15 @@
 export default function SearchFrom({ searchTerm, onInputChange, onSearchSubmit }) {
 	return (
-		<form onSubmit={onSearchSubmit}>
-			<label htmlFor="search">Search: </label>
+		<form onSubmit={onSearchSubmit} className="search-form-container">
+			<label htmlFor="search" className="search-label">Search:</label>
 			<input
 				id="search"
 				type="text"
 				value={searchTerm}
 				onChange={onInputChange}
+				className="search-input"
 			/>
-
-			<p>Searching for <strong> {searchTerm} </strong> </p>
-
-			<button type="submit" disabled={!searchTerm}>Submit</button>
+			<button type="submit" disabled={!searchTerm} className="search-button">Submit</button>
 		</form>
 	)
 };

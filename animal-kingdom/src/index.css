@@ -23,6 +23,7 @@ body {
 	background-color: var(--background-color);
 }
 
+/*************** App Component ********************************/
 .entry-container {
 	margin: 0 auto;
 	display: grid;
@@ -296,4 +297,110 @@ body {
 		width: 70%;
 		margin-bottom: 0.5rem;
 	}
+}
+
+/*************** Spinner Component ********************************/
+/* Ensure the parent div takes up the full viewport */
+.spinner-container {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: top;      /* Center vertically */
+  height: 100vh;            /* Full viewport height */
+  margin-top: 170px;
+}
+
+.spinner {
+  border: 16px solid #e2e2e2; /* Light grey */
+  border-top: 16px solid #2693ff; /* Blue */
+  border-bottom: 16px solid #ffb373; /* Orange */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  
+  /* Standard animation */
+  animation: spin 2s linear infinite;
+  
+  /* Safari and older browser prefixes */
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  -moz-animation: spin 2s linear infinite; /* Firefox */
+  -o-animation: spin 2s linear infinite; /* Opera */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Webkit (Safari) and Mozilla (Firefox) prefixes for keyframes animation */
+@-webkit-keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*************** SearchForm Component ********************************/
+/* Center the form using Flexbox */
+.search-form-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.search-input {
+  width: 30%;
+  height: 15px;
+  padding: 5px 5px;
+  margin: 5px 0;
+  margin-left: 3px;
+  border-radius: 5px;
+  color: #6c6c6c;
+  border: 1px solid #ccc; /* Set a border to avoid disappearing border */
+  outline: none; /* Remove default outline on focus */
+  transition: width 0.4s ease-in-out; /* Expand when focused */
+}
+
+.search-input:focus {
+  border: 1.3px solid #ffb373; /* Your custom focus border */
+  outline: none; /* Ensure no outline appears when focused */
+  width: 60%;
+}
+
+.search-label {
+  color: #2693ff;
+}
+
+.search-button {
+  margin-left: 3px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: #3399ff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 12px;
+  transition-duration: 0.3s; /* For hover transition */
+}
+
+/* Hover effect for button */
+.search-button:hover {
+  background-color: #ffb373;
+  color: black;
+  border: 2px solid #ffb373;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style for the button when it's disabled */
+.search-button:disabled {
+  opacity: 0.6; /* Dim the button */
+  cursor: not-allowed; /* Change the cursor to indicate it's disabled */
+  background-color: #3399ff;
+  border-color: white;
 }
