@@ -354,13 +354,13 @@ body {
 }
 
 .search-input {
-  width: 30%;
+  width: 150px;
   height: 15px;
   padding: 5px 5px;
   margin: 5px 0;
   margin-left: 3px;
   border-radius: 5px;
-  color: #6c6c6c;
+  color: #535353;
   border: 1px solid #ccc; /* Set a border to avoid disappearing border */
   outline: none; /* Remove default outline on focus */
   transition: width 0.4s ease-in-out; /* Expand when focused */
@@ -369,7 +369,12 @@ body {
 .search-input:focus {
   border: 1.3px solid #ffb373; /* Your custom focus border */
   outline: none; /* Ensure no outline appears when focused */
-  width: 60%;
+  width: 250px;
+}
+
+.search-input::placeholder {
+  color: #aaa; /* Example: light gray color for the placeholder text */
+  font-style: italic; /* Optional: you can also style it with italic or other styles */
 }
 
 .search-label {

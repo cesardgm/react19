@@ -8,6 +8,7 @@ export default function SearchFrom({ searchTerm, onInputChange, onSearchSubmit }
 				value={searchTerm}
 				onChange={onInputChange}
 				className="search-input"
+				placeholder="e.g. Albatross"
 			/>
 			<button type="submit" disabled={!searchTerm} className="search-button">Submit</button>
 		</form>

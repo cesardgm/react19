@@ -2,6 +2,7 @@ import Entry from "./components/Entry.jsx";
 import allPictures from "./gallery.js";
 import SearchForm from "./components/SearchForm.jsx";
 import Spinner from "./components/Spinner.jsx";
+import Gallery from "./components/Gallery.jsx"
 import { useState, useEffect } from 'react';
 
 export default function App() {
@@ -46,24 +47,11 @@ export default function App() {
 		setSearchedPictures(filteredPictures);
 	};
 
-	const entryElements = searchedPictures.map((entry) => {
-		return (
-			<Entry 
-				key={entry.id}
-				{...entry}
-			/>
-		)
-	});
-
 	return (
 		<>
 			<SearchForm searchTerm={searchTerm} onInputChange={handleInputChange} onSearchSubmit={handleSearchSubmit} />
-			{isError === true ? <p>Something went wrong ...</p> : null}
-			{isLoading === true ? <Spinner/> : (
-				<main className="container">
-					{entryElements}
-				</main>
-			)}
+			{	isError === true ? <p>Something went wrong ...</p> : null	}
+			{	isLoading === true ? <Spinner/> : <Gallery searchedPictures={searchedPictures} />	}
 		</>
 	)
 };
