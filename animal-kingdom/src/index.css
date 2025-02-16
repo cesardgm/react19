@@ -467,3 +467,24 @@ body {
 	cursor: pointer;
 	color: #e66a00;
 }
+
+/* For Default Item in Dropdown */
+/* Item inside the dropdown */
+.dropdown-item-disabled {
+  border-bottom: 1px solid #ccc;
+  font-family: "Roboto", sans-serif;
+  color: #535353;
+  font-size: 12px;
+  font-style: italic;
+  padding: 5px; /* Adjust padding if necessary */
+}
+
+/* Hover effect only for span inside dropdown item */
+.dropdown-item-disabled span {
+  display: block;
+}
+
+/* Hover effect for the item */
+.dropdown-item-disabled span:hover {
+	cursor: default;
+}

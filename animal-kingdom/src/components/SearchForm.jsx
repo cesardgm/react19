@@ -4,8 +4,6 @@ import { AnimatePresence, motion } from "motion/react";
 
 export default function SearchFrom({ searchedPictures, searchTerm, onInputChange, onSearchSubmit, isOpen, onInputClick }) {
 
-	// Will not update on re-renders. Initialize this state once when the component first mounts.
-	// Will remain the same as the initial value unless explicitly changed.
 	const [originalPicturesSet, setOriginalPicturesSet] = useState([...searchedPictures]);
 
 	function filterPicturesByTitle(searchTerm) {
@@ -18,7 +16,6 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 		  })
 		  .slice(0, 3);
 
-		// If the filtered result is empty, return an array with the default object
 		const result = filteredTitles.length === 0
 			? [{ title: "No Matches Found", id: -1 }]
 			: filteredTitles
@@ -51,9 +48,12 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 								exit={{ opacity: 0, y: -20 }}
 							>
 								{ suggestions.map(function(data, i) {
+									const isDefault = data.title === "No Matches Found"
+									const itemClass = isDefault ? "dropdown-item-disabled" : "dropdown-item";
+
 									return (
 										<motion.div 
-											className="dropdown-item"
+											className={itemClass}
 											initial={{ opacity: 0 }}
 											animate={{ opacity: 1 }}
 											transition= {{
@@ -62,7 +62,11 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 											exit={{ opacity: 0, y: -20 }}
 											key={data.id}
 										>
-											<span onClick={(event) => onInputClick(event)}>{data.title}</span>
+											<span 
+												onClick={isDefault ? () => {} : (event) => onInputClick(event)}
+											>
+												{data.title}
+											</span>
 										</motion.div>)
 									})
 								}

@@ -39,9 +39,9 @@ export default function App() {
 		const newSearchTerm = event.target.value;
 		setSearchTerm(newSearchTerm);
 		if (newSearchTerm.length === 0) {
-    		setIsOpen(false); // Close the dropdown if input is empty
+    		setIsOpen(false);
   		} else {
-    		setIsOpen(true); // Open the dropdown if input has text
+    		setIsOpen(true);
   		};
 	};
 
@@ -58,7 +58,7 @@ export default function App() {
 
 	function handleInputClick(event) {
 		const suggestion = event.target.innerText;
-		setSearchTerm(suggestion); // Directly set the search term to the clicked suggestion
+		setSearchTerm(suggestion);
 		setIsOpen(false);
 	};
 
