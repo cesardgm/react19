@@ -4,19 +4,29 @@ import { AnimatePresence, motion } from "motion/react";
 
 export default function SearchFrom({ searchedPictures, searchTerm, onInputChange, onSearchSubmit, isOpen, onInputClick }) {
 
-	const filteredTitles = searchedPictures
-	  .filter(function(picture) {
-	    return picture.title.toLowerCase().includes(searchTerm.toLowerCase());
-	  })
-	  .map(function(picture) {
-	    return { title: picture.title, id: picture.id };
-	  })
-	  .slice(0, 3);
+	// Will not update on re-renders. Initialize this state once when the component first mounts.
+	// Will remain the same as the initial value unless explicitly changed.
+	const [originalPicturesSet, setOriginalPicturesSet] = useState([...searchedPictures]);
 
-	// If the filtered result is empty, return an array with the default object
-	const result = filteredTitles.length === 0
-		? [{ title: "No Matches Found", id: -1 }]
-		: filteredTitles
+	function filterPicturesByTitle(searchTerm) {
+		const filteredTitles = originalPicturesSet
+		  .filter(function(picture) {
+		    return picture.title.toLowerCase().includes(searchTerm.toLowerCase());
+		  })
+		  .map(function(picture) {
+		    return { title: picture.title, id: picture.id };
+		  })
+		  .slice(0, 3);
+
+		// If the filtered result is empty, return an array with the default object
+		const result = filteredTitles.length === 0
+			? [{ title: "No Matches Found", id: -1 }]
+			: filteredTitles
+
+		return result
+	};
+
+	const suggestions = filterPicturesByTitle(searchTerm);
 
 	return (
 		<div className="search-dropdown-container">
@@ -40,7 +50,7 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 								animate={{ opacity: 1, y: 0 }}
 								exit={{ opacity: 0, y: -20 }}
 							>
-								{ result.map(function(data, i) {
+								{ suggestions.map(function(data, i) {
 									return (
 										<motion.div 
 											className="dropdown-item"

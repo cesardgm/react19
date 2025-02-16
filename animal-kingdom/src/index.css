@@ -385,7 +385,7 @@ body {
   border: 2px solid #ccc; /* Set a border to avoid disappearing border */
   outline: none; /* Remove default outline on focus */
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  transition: width 0.4s ease-in-out; /* Expand when focused */
+  transition: width 0.2s ease-in-out; /* Expand when focused */
 }
 
 .search-input:focus {
