@@ -448,14 +448,22 @@ body {
   padding: 5px;
 }
 
+/* Item inside the dropdown */
 .dropdown-item {
-	border-bottom: 1px solid #ccc;
-	font-family: "Roboto", sans-serif;
-	color: #535353;
-	font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  font-family: "Roboto", sans-serif;
+  color: #535353;
+  font-size: 12px;
+  padding: 5px; /* Adjust padding if necessary */
 }
 
-.dropdown-item:hover {
+/* Hover effect only for span inside dropdown item */
+.dropdown-item span {
+  display: block;
+}
+
+/* Hover effect for the item */
+.dropdown-item span:hover {
 	cursor: pointer;
 	color: #e66a00;
 }

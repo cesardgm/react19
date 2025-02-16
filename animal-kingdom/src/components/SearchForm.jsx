@@ -62,7 +62,7 @@ export default function SearchFrom({ searchedPictures, searchTerm, onInputChange
 											exit={{ opacity: 0, y: -20 }}
 											key={data.id}
 										>
-											<span onClick={(event) => onInputClick(event,data.title)}>{data.title}</span>
+											<span onClick={(event) => onInputClick(event)}>{data.title}</span>
 										</motion.div>)
 									})
 								}
