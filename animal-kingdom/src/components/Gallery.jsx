@@ -4,16 +4,15 @@ import { AnimatePresence, motion } from "motion/react";
 export default function Gallery({ searchedPictures }) {
 	const entryElements = searchedPictures.map((entry, i) => {
 		return (
-			<AnimatePresence>
-				<motion.div 
+			<AnimatePresence key={entry.id}>
+				<motion.div
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition= {{
 						delay: i * 0.3,
 					}}
-					key={entry.id}
 				>
-					<Entry key={entry.id} {...entry} />
+					<Entry {...entry} />
 				</motion.div>
 			</AnimatePresence>
 			)
