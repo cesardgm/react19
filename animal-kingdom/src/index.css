@@ -55,6 +55,8 @@ body {
 .main-image {
 	padding: 5px;
 	height: auto;
+	aspect-ratio: 9 / 16;
+	object-fit: cover;
 }
 
 /* Entry Source */
@@ -305,7 +307,7 @@ body {
 	.parameters {
 		font-size: 7px;
 		grid-template-columns: 1fr 0.8fr;
-		width: 70%;
+		width: 80%;
 		margin-bottom: 0.5rem;
 	}
 }
