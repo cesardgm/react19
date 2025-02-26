@@ -11,4 +11,8 @@ Contains:
 Visit the page [here.](https://cesardgm.github.io/react19/)
 
 ## `animal-kingdom`
+## `animal-kingdom`
 Here is a demo video of the site: [Animal Kingdom Demo Video](./animal-kingdom/video/animal_kingdom.mp4)
+
+Here is a screenshot of the site: ![Animal Kingdom Screenshot](./animal-kingdom/public/screenshot.png)
+
