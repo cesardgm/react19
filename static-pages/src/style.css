@@ -285,6 +285,18 @@ hr {
 	}
 }
 
+.demo_link {
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: flex-start;
+	color: var(--text-color);
+	text-decoration: underline;
+}
+
 .demo_link:hover {
-  text-decoration: underline;
+  color: var(--primary-color);
+  text-decoration: none;
 }
