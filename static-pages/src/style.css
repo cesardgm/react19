@@ -7,7 +7,7 @@
 :root {
 	--primary-color: #e3dfc3;
 	--title-color: #979582;
-	--text-color: #656357;
+	--text-color: #8F8C7B;
 	
 	--background-color: black;
 	--container-color: #070707;
@@ -283,4 +283,8 @@ hr {
 	hr {
 		margin: 0 auto;
 	}
+}
+
+.demo_link:hover {
+  text-decoration: underline;
 }

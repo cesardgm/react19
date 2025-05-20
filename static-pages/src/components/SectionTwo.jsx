@@ -7,24 +7,33 @@ export default function SectionTwo() {
 			{/* Experience Section */}
 			<div className="exp">
 				<h3 className="title">Experience</h3>
-				<div className="exp_item">
-					<p className="item_preTitle">June 2023 - present</p>
-					<h4 className="item_title">CureGenie, Inc.</h4>
-					<p className="item_subTitle">Developer</p>
-					<ul className="exp_list description">
-						<li>
-							Automated clinician workflows using generative AI, 
-							enhancing efficiency and accuracy in patient care 
-							processes across Boston and California clinics.
-						</li>
-						<li>
-							Led the development and deployment of CureGenie's 
-							infrastructure, business logic, security, and user 
-							interface, ensuring a seamless and secure user experience.
-						</li>
-						 
-					</ul>
-				</div>
+					<div className="exp_item">
+					  <p className="item_preTitle">June 2023 - present</p>
+					  <h4 className="item_title">CureGenie, Inc.</h4>
+					  <p className="item_subTitle">Developer</p>
+					  <ul className="exp_list description">
+					    <li>
+					      Automated clinician workflows using generative AI, 
+					      enhancing efficiency and accuracy in patient care 
+					      processes across Boston and California clinics.
+					    </li>
+					    <li>
+					      Led the development and deployment of CureGenie's 
+					      infrastructure, business logic, security, and user 
+					      interface, ensuring a seamless and secure user experience.
+					    </li>
+					    <li>
+						    <a 
+						    href="https://www.youtube.com/watch?v=-J-ZOK0PKs4&ab_channel=HourLoops4124" 
+						    target="_blank" 
+						    rel="noopener noreferrer"
+						    className="demo_link"
+						  	>
+						    🔗 Watch product demo
+						  	</a>
+					    </li>
+					  </ul>
+					</div>
 				<div className="exp_item">
 					<p className="item_preTitle">Aug 2015 - June 2021</p>
 					<h4 className="item_title">One Redwood City</h4>
